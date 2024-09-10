@@ -1,0 +1,21 @@
+.ProductsList {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.ProductsList h2,
+.ProductsList a {
+	padding: 1rem;
+}
+
+.listCon {
+	margin: 0 !important;
+}
+
+.listCon {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 1rem;
+}

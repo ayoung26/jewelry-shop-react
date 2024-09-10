@@ -1,0 +1,29 @@
+.DetailPage {
+}
+.productCon {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+.imgCon {
+	width: 45%;
+}
+.imgCon img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.pInfo {
+	width: 50%;
+	line-height: 2;
+}
+.count {
+	display: flex;
+	align-items: center;
+}
+.count button {
+	cursor: pointer;
+}
+.count span {
+	padding: 0.5rem;
+}
